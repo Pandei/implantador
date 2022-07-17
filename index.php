@@ -3,9 +3,11 @@
 
 
 use Symfony\Component\Console\Input\Input;
+
+header ('Location: autenticacao.php');
 //if (!isset($_SESSION)){
   //  session_start();
-require_once 'Categoria.php';
+/*require_once 'Categoria.php';
 $criaCategoria = new Categoria();
 
 $vloja = $_GET["loja"];
@@ -35,7 +37,7 @@ echo $criaCategoria->getNomeCategoria();
 
 
 
-echo "<br>Fim do Index<br>";
+#echo "<br>Fim do Index<br>";
 //echo $numCat->getListaCategoria();
 //$numCat->setListaCategoria($vnumeroCateg);
 
